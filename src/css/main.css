@@ -1,0 +1,325 @@
+@import url(bootstrap.min.css);
+html {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+body {
+  background: url(../assets/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.main {
+  margin-bottom: 30px;
+}
+
+button, button:active, button:focus {
+  outline: none;
+}
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+a, a:hover {
+  color: #519ece;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.logo {
+  background-image: url(../assets/img/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 8.33rem;
+  cursor: pointer;
+}
+
+.side-menu--icon {
+  -webkit-transform: translate(-278, -298.8);
+          transform: translate(-278, -298.8);
+  fill: #a9bfc7;
+}
+
+.side-menu--icon:hover {
+  fill: white;
+}
+
+.account-header {
+  height: 4rem;
+}
+
+.account-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  background-color: cyan;
+  margin-right: 20px;
+}
+
+.account-name {
+  color: darkgray;
+  text-decoration: underline;
+}
+
+.main-menu {
+  height: 6.33rem;
+  width: 100%;
+  background-color: #4ec4ac;
+}
+
+.main-menu--item {
+  line-height: 6rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: white;
+}
+
+.main-menu--item span {
+  cursor: pointer;
+}
+
+.main-content__side-bar--item {
+  line-height: 7rem;
+  text-align: center;
+  height: 7.66rem;
+  width: 8.33rem;
+  background-color: #2f3b4c;
+  border-bottom: 1px solid #2f3b4c;
+  color: darkgray;
+  cursor: pointer;
+}
+
+.main-content__side-bar--item:hover {
+  transition: all 0.4s;
+  background-color: #4f9dce;
+  color: white;
+}
+
+.content-block {
+  background-color: #eef1f4;
+  height: auto;
+  width: 100%;
+}
+
+.content-container {
+  padding-top: 15px;
+  background-color: white;
+}
+
+.content-user__navigation {
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.content-user-navigation--item {
+  border-right: 1px solid lightgray;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.nav-active {
+  box-shadow: 0px -6px 0px -2px blue;
+}
+
+.nav-btn {
+  height: 2rem;
+  background-color: #4f9dce;
+  color: white;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3px;
+}
+
+.content-user--item {
+  padding: 1rem 0;
+  border-bottom: 2px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  width: 100%;
+}
+
+.user--item__avatar {
+  vertical-align: middle;
+  text-align: center;
+  align-self: center;
+}
+
+.user--item__photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 3.5rem;
+  background-color: burlywood;
+}
+
+.user--item__info {
+  font-size: 0.9rem;
+}
+
+.user-item--name {
+  color: blue;
+  cursor: pointer;
+}
+
+.user-item--email
+.user-item--department .user-item--role {
+  color: gray;
+}
+
+.user-item--lastlogged {
+  color: lightgray;
+}
+
+/*---------------------------------------------
+--------------------LOGIN-PAGE-----------------
+---------------------------------------------*/
+.login-logo {
+  width: 100%;
+  height: 5.33rem;
+  background: url(../assets/img/logo_project-name.png);
+  background-repeat: no-repeat;
+  background-size: auto 5.2rem;
+  background-position: right;
+  margin-bottom: 10px;
+}
+
+.login-block {
+  background-color: white;
+}
+
+.login-block--logo {
+  width: 100%;
+  height: 6.66rem;
+  background-image: url(../assets/img/mini_logo.png);
+  background-repeat: no-repeat;
+  background-size: auto 6.6rem;
+  background-position: center;
+}
+
+.login-form {
+  padding: 4.33rem 0 2rem 0;
+}
+
+.login-form label {
+  color: #a1a1a1;
+  font-weight: 400;
+}
+
+.login-input {
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #e7ebef;
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+
+.login-submit__btn {
+  background-color: #0085a1;
+  padding: 0.8rem;
+  color: white;
+}
+
+.account-action {
+  padding-bottom: 2rem;
+}
+
+.login-bottom--logo {
+  margin-top: 10px;
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+  background-image: url(../assets/img/logo_fund.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: right;
+}
+
+/*---------------------------------------------
+--------------------USER-PAGE-----------------
+---------------------------------------------*/
+.user-username {
+  font-size: 1.25rem;
+}
+
+.user-username--span {
+  font-weight: bold;
+}
+
+.user-position {
+  padding: 1.15rem 0;
+}
+
+.user-settings {
+  margin-bottom: 1rem;
+}
+
+.user-allow-change--title {
+  margin-right: 15px;
+}
+
+.user-settings--checkbox {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 20px;
+}
+
+.user-settings--checkbox + label {
+  position: relative;
+  padding: 0 0 0 60px;
+  cursor: pointer;
+}
+
+.user-settings--checkbox + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 30px;
+  height: 15px;
+  border-radius: 13px;
+  background: #CDD1DA;
+  transition: .2s;
+}
+
+.user-settings--checkbox + label:after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -10px;
+  width: 22px;
+  height: 22px;
+  border-radius: 10px;
+  background: #FFF;
+  transition: .2s;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.user-settings--checkbox:checked + label:before {
+  background: #80deea;
+}
+
+.user-settings--checkbox:checked + label:after {
+  left: 16px;
+  background: #00bcd4;
+}
