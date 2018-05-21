@@ -11,7 +11,7 @@ class Header extends Component {
 				<div className="container">
 					<div className="account-header__block d-flex justify-content-end align-items-center">
 						<div className="account-photo"></div>
-						<a href="login-page.html" className="account-name">a@a.com⯆</a>
+						<Link to='/sign-in/' className="account-name">a@a.com⯆</Link>
 					</div>
 				</div>
 			</div>
