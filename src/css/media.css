@@ -1,0 +1,39 @@
+@media (max-width: 1450px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    html {
+        font-size: 8px;
+    }
+
+    .content-user-navigation--item {
+        border-right: 1px solid lightgray;
+        padding: 1rem 2rem; 
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 8px;
+    }
+
+    .nav-btn {
+        font-size: 0.75rem;
+    }
+
+    .content-user-navigation--item {
+        border-right: 1px solid lightgray;
+        padding: 0.8rem 1.75rem; 
+        cursor: pointer;
+    }
+}

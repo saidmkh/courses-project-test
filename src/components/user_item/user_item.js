@@ -6,7 +6,7 @@ export default class UserItem extends Component {
     render() {
         return (
             <div className="content-user--item d-flex">
-                <div className="col-6 d-flex">
+                <div className="col-xl-6 col-lg-6 col-12 d-flex">
                     <div className="user--item__avatar d-flex justify-content-center align-center">
                         <div className="user--item__photo"></div>
                     </div>
@@ -18,7 +18,7 @@ export default class UserItem extends Component {
                         <span className="user-item--lastlogged">Last logged-in: Aug 26, 2016 3:51 PM</span>
                     </div>
                 </div>
-                <div className="col-6">
+                <div className="col-xl-6 col-lg-6 col-12 d-flex">
                     
                 </div>
             </div>

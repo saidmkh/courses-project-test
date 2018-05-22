@@ -25,8 +25,8 @@ export default class LoginPage extends Component {
                                 </div>
                             </form>
                             <div className="account-action d-flex justify-content-between">
-                                <a href="#" className="account-action--links">Forgot password</a>
-                                <a href="#" className="account-action--links">Create account</a>
+                                <Link to='/' className="account-action--links">Forgot password</Link>
+                                <Link to='/' className="account-action--links">Create account</Link>
                             </div>
                         </div>
                     </div>

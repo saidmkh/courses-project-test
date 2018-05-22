@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 
 export default class UserPage extends Component {
+    componentDidMount() {
+        window.scrollTo(0,0);
+    }
+    
     render() {
         return (
             <div className="content-user-container">

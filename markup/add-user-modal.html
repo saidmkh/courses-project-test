@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="src/css/fonts.css">
+	<link rel="stylesheet" href="src/css/main.css">
+	<link rel="stylesheet" href="src/css/media.css">
+</head>
+<body>
+	<div class="popup">
+        <div class="popup-block d-flex align-content-center align-middle flex-column col-xl-4 col-lg-5 col-md-6 col-sm-7 col-xs-7 col-10">
+            <div class="close p-2"></div>
+            <p class="popup-header text-center">Add user</p>
+            <form class="col-9 mx-auto p-4">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label>Department</label>
+                    <input type="text" class="form-control" placeholder="Department">
+                </div>
+                <div class="form-group">
+                    <label for="select-select-role">Select role</label>
+                    <select class="form-control" id="select-role">
+                        <option>Teacher</option>
+                        <option>Manager</option>
+                        <option>Admin</option>
+                    </select>
+                </div>
+                <div class="popup-btn-block d-flex justify-content-around">
+                    <button type="button" class="add-prop-btn btn-lg">Cancel</button>
+                    <button type="submit" class="add-prop-btn btn-lg">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
